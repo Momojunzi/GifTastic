@@ -1,6 +1,5 @@
 var page = {
 	topics: ["baguazhang", "taijiquan", "xingyiquan", "qigong", "yiquan", "neigong"],
-	newSubject: "",
 	drawButtons: function() {
 		for (var index=0; index<page.topics.length; index++) {
 			var subject = page.topics[index];
@@ -11,8 +10,11 @@ var page = {
 	createNewButton: function() {
 		$('#submitBtn').on('click', function(event) {
 			event.preventDefault();
-			page.newSubject = $('#newSubject').val();
-			console.log(page.newSubject);
+			var newSubject = $('#newSubject').val();
+			page.topics.push(newSubject);
+			var newButton = $('<button type="submit" class="btn btn-primary subjectButton" data-name=' + newSubject + ' id=' + newSubject + ' >' + newSubject + '</button>');
+			$('#button-div').append(newButton);
+			console.log(newSubject);
 		});
 	}
 
