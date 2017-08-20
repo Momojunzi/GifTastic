@@ -28,3 +28,19 @@ header {
 	border-radius: 5px;
 	box-shadow: 0px 1px 10px #C0C0C0;
 }
+
+#gif-div {
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px #C0C0C0;
+}
+
+.gif-container {
+	
+}
+
+.gif {
+	width: 100%;
+}
