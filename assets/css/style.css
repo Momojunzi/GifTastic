@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.subjectButton {
+	margin: 5px;
+}
+
+#button-div {
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px #C0C0C0;
+}
+
+#search-div {
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px #C0C0C0;
+}
